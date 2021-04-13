@@ -1,0 +1,11 @@
+.footer{
+background-image: linear-gradient(to left, #32a885 , #00cec9);
+text-align: center;
+height: 5vh;
+padding-top: 0px;
+}
+
+.footer span{
+    color: white
+}
+

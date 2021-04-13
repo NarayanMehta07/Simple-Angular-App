@@ -1,0 +1,47 @@
+.main{
+    height: 77vh;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    text-align: center;
+    
+}
+
+.left h2{
+    color: white;
+    padding-top: 100px;
+}
+
+.left input{
+    margin: 40px;
+    width: 250px;
+    border-radius: 50px;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left button{
+    border-radius: 50px;
+    background-image: linear-gradient(to left, #32a885 , #32a88f);
+    text-decoration: solid;
+    height: 40px;
+}
+
+.left button:hover{
+    background-image: linear-gradient(to left, #105742 , #32a88f);
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 76% 24% 48% 52% / 68% 34% 66% 32%  ;
+    background-color:  #63c9b3;
+    opacity: .8;
+}
+
+.right:hover{
+    opacity: 1;
+}
